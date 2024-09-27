@@ -16,13 +16,14 @@ QR Code component that serves as a starter challenge for working with HTML and C
 
 ### Screenshot
 
-![](./screenshots/qr-code-mobile.png)
-![](./screenshots/qr-code-desktop.png)
+<img src="./screenshots/qr-code-mobile.png" width=200></img>
+
+<img src="./screenshots/qr-code-desktop.png" height=350></img>
 
 ### Links
 
-- Solution URL: [Solution on frontendmentor](https://your-solution-url.com)
-- Live Site URL: [Live site](https://cohoc.github.io/frontendmentor/qr-code-component-main/)
+- [Solutions on frontendmentor](https://www.frontendmentor.io/home)
+- [Live site](https://cohoc.github.io/frontendmentor/qr-code-component-main/)
 
 ## My process
 
