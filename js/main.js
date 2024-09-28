@@ -28,6 +28,5 @@ function loadData(){
         </li>
         `
         document.querySelector(".cards__list").insertAdjacentHTML("beforeend", html);
-        console.log(image);
     })
 }

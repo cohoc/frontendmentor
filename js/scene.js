@@ -22,7 +22,7 @@ const camera = new THREE.PerspectiveCamera(
     900
 )
 
-camera.position.z = 35;
+camera.position.z = 30;
 camera.position.y = 10;
 camera.lookAt(0,0,0)
 
