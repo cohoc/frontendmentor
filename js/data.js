@@ -6,5 +6,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "qrcode"
+    },
+    {
+        name: "social-links-profile-main",
+        title: "Social Links Profile",
+        description: "Social link-sharing profile",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "social-links-profile"
     }
 ]

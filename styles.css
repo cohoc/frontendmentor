@@ -75,7 +75,6 @@ main{
     color: var(--blue-lighter);
     text-wrap: wrap;
     font-size: clamp(2rem, 9vw, 5.5rem);
-    line-height: .90;
 }
 
 .hero__title > span{
@@ -89,7 +88,7 @@ main{
     color: white;
     font-size: clamp(.5rem, 3vw, 1.25rem);
     margin-block: 3rem;
-    padding-inline: 2rem;
+    padding-inline: .25rem;
     line-height: 1.5;
 }
 
@@ -98,7 +97,7 @@ main{
 
     .hero__text{
         margin-block: 1rem;
-        padding-inline: 1rem;
+        padding-inline: .15rem;
     }
 }
 

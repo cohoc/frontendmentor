@@ -10,7 +10,7 @@ function loadData(){
         let skills = card.skills;
         let level = card.level;
         let link = card.link;
-        let image = `${name}/design/desktop-design.jpg`
+        let image = `./${name}/design/desktop-design.jpg`
         let url = `${window.location.href}${link}`;
         let html = 
         `

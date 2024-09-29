@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --font-inter: Inter, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,h2,p{
+    margin: 0px;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.thin{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--grey-900);
+    color: white;
+    font-family: var(--font-inter);
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    height: 670px;
+    border-radius: 12px;
+    padding: 36px;
+    background: var(--grey-800);
+}
+
+.profile-container > .avatar{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-container > .name{
+    margin-top: 32px;
+}
+
+.profile-container > .city{
+    font-size: 14px;
+    margin-top: 16px;
+    color: var(--green);
+}
+
+.profile-container > .about{
+    margin-top: 32px;
+    color: rgba(255, 255, 255, .75);
+}
+
+.socials-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    row-gap: 16px;
+    width: 100%;
+    height: 320px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 8px;
+    background: var(--grey-700);
+    transition: background 150ms ease;
+}
+
+.list-item:hover{
+    color: black;
+    background: var(--green);
+    transition: background 150ms ease;
+}
+
+.attribution{
+    position: absolute;
+    height: 24px;
+    bottom: 0;
+    right: 50;
+}
