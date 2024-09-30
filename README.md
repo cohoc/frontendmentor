@@ -6,5 +6,7 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 
 | Challenge Name    | Repo | Live Site |
 | ----------------- | ---- |-----------|
-| [QR Code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [Github](https://github.com/cohoc/frontendmentor/tree/main/qr-code-component-main) |    [Live](https://cohoc.github.io/frontendmentor/qr-code-component-main/)   |
+| [QR Code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [Github](https://github.com/cohoc/frontendmentor/tree/main/qr-code-component-main) |    [Live](https://cohoc.github.io/frontendmentor/qr-code-component-main/)   | 
+| [Social-Links-Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Github](https://github.com/cohoc/frontendmentor/tree/main/social-links-profile-main) | [Live](https://cohoc.github.io/frontendmentor/social-links-profile-main/) | 
+
 
