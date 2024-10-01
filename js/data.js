@@ -14,5 +14,15 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "social-links-profile"
+    },
+    {
+        name: "recipe-page-main",
+        title: "Recipe Page",
+        description: "Example recipe page with useful info",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "recipe-page"
+
+
     }
 ]
