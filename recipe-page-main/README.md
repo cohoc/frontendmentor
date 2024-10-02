@@ -5,17 +5,15 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Resources](#useful-resources)
 
 
 ## Overview
-Recipe page is an easy level challenge with a heavier focus on list styling and 
-some mobile responsiveness.
+Recipe page is an easy level challenge with a heavier focus on list styling and some mobile responsiveness.
 
 ### Screenshot
 
@@ -26,7 +24,7 @@ some mobile responsiveness.
 ### Links
 
 - [Solutions on frontendmentor](https://www.frontendmentor.io/profile/cohoc)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://cohoc.github.io/frontendmentor/recipe-page-main/)
 
 ## My process
 
@@ -36,12 +34,8 @@ some mobile responsiveness.
 - CSS custom properties
 - Flexbox
 
-### What I learned
-
-### Continued development
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Styling lists in css](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
+
 
