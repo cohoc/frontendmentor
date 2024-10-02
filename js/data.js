@@ -22,7 +22,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "recipe-page"
-
-
+    },
+    {
+        name: "faq-accordion-main",
+        title: "FAQ Accordion",
+        description: "FAQ accordion component with dropdowns",
+        skills: "HTML, CSS, JS",
+        level: "1 - NEWBIE",
+        link: "faq-accordion"
     }
 ]
