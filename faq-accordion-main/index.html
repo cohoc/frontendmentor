@@ -1,48 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ accordion</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Frontend  Mentor | FAQ accordion</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
 </head>
 <body>
+    <main class="accordion work-sans">
+        <div class="accordion__header">
+            <svg class="star" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 41"><path fill="#AD28EB" d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"/></svg>
+            <h1 class="accordion__title">
+                FAQs
+            </h1>
+        </div>
+        <ul class="accordion__list">
+            <li class="accordion__item">
+                <div class="dropdown" tabindex="0">
+                    <div class="dropdown__header">
+                        <h2 class="dropdown__title dark-purple">
+                            What is Frontend Mentor, and how will it help me?
+                        </h2>
+                        <div class="dropdown__icon">
+                            <svg class="icon__plus" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                            <svg class="icon__minus hidden " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                    
+                    <article class="dropdown__text">
+                        <p class="text">
+                            Frontend Mentor offers realistic coding challenges to help developers improve their 
+                            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+                            all levels and ideal for portfolio building.
+                        </p>
+                    </article>
+                    
+                </div>
+            </li>
 
-  FAQs
+            <li class="accordion__item">
+                <div class="dropdown" tabindex="0">
+                    <div class="dropdown__header">
+                        <h2 class="dropdown__title dark-purple">
+                            Is Frontend Mentor free?
+                        </h2>
+                        
+                        <div class="dropdown__icon" >
+                            <svg class="icon__plus" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                            <svg class="icon__minus hidden " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <article class="dropdown__text">
+                        <p class="text">
+                            Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+                            option providing access to a range of projects suitable for all skill levels.
+                        </p>
+                    </article>
+                </div>
+            </li>
 
-  What is Frontend Mentor, and how will it help me?
+            <li class="accordion__item">
+                <div class="dropdown" tabindex="0">
+                    <div class="dropdown__header">
+                        <h2 class="dropdown__title dark-purple">
+                            Can I use Frontend Mentor projects in my portfolio?
+                        </h2>
+                        <div class="dropdown__icon">
+                            <svg class="icon__plus" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                            <svg class="icon__minus hidden " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <article class="dropdown__text">
+                        <p class="text">
+                            Yes, you can use projects completed on Frontend Mentor in your portfolio. 
+                            It's an excellent way to showcase your skills to potential employers!
+                        </p>
+                    </article>
+                </div>
+                
+            </li>
 
-  Frontend Mentor offers realistic coding challenges to help developers improve their 
-  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-  all levels and ideal for portfolio building.
+            <li class="accordion__item">
+                <div class="dropdown" tabindex="0">
+                    <div class="dropdown__header">
+                        <h2 class="dropdown__title dark-purple">
+                            How can I get help if I'm stuck on a challenge?
+                        </h2>
+                        <div class="dropdown__icon">
+                            <svg class="icon__plus" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                            <svg class="icon__minus hidden " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31">
+                                <path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <article class="dropdown__text">
+                        <p class="text">
+                            The best place to get help is inside Frontend Mentor's Discord community. 
+                            There's a help channel where you can ask questions and seek support from other community members.
+                        </p>
+                    </article>
+                </div>
+                
+            </li>
+        </ul>
+        
+    </main>
 
-  Is Frontend Mentor free?
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#"> cohoc</a>.
+    </div>
 
-  Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
-  option providing access to a range of projects suitable for all skill levels.
+    <script>
+        const accordion = document.querySelectorAll(".accordion__item");
+        accordion.forEach((item) => {
+            ["click", "keydown"].forEach(eventtype => {
+                item.addEventListener(eventtype, event => {
+                    const li = event.target.closest("li").querySelector(".dropdown__text");
+                    const iconplus = event.target.closest("li").querySelector(".icon__plus");
+                    const iconminus = event.target.closest("li").querySelector(".icon__minus");
+                    const title = event.target.closest("li").querySelector(".dropdown__title")
+                    if(eventtype === "keydown" && event.key === 'Enter'){
+                        iconplus.classList.toggle("hidden")
+                        iconminus.classList.toggle("hidden")
+                        li.classList.toggle("isopen")   
+                        title.classList.toggle("bright-pink")
+                        title.classList.toggle("dark-purple")
+                    }
 
-  Can I use Frontend Mentor projects in my portfolio?
+                    if(eventtype === 'click'){
+                        iconplus.classList.toggle("hidden")
+                        iconminus.classList.toggle("hidden")
+                        li.classList.toggle("isopen")
+                        title.classList.toggle("bright-pink")
+                        title.classList.toggle("dark-purple")
+                    }
+                })
+            })
+        })
 
-  Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-  way to showcase your skills to potential employers!
-
-  How can I get help if I'm stuck on a Frontend Mentor challenge?
-  
-  The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-  channel where you can ask questions and seek support from other community members.
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </script>
 </body>
 </html>
