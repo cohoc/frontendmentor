@@ -30,5 +30,13 @@ export const data = [
         skills: "HTML, CSS, JS",
         level: "1 - NEWBIE",
         link: "faq-accordion"
+    },
+    {
+        name: "results-summary-component-main",
+        title: "Results Summary Component",
+        description: "Component with results, scores, and insights",
+        skills: "HTML, CSS, JS, JSON",
+        level: "1 - NEWBIE",
+        link: "results-summary"
     }
 ]
