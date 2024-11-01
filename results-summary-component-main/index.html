@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta description="Solution to results summary component from frontendmentor.io">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="results__container">
+            <section class="results__summary">
+                <h3>Your Result</h3>
+    
+                <div class="summary__grade">
+                    <h1 class="">76</h1>
+                    <p>of 100</p>
+                </div>
+    
+                <div class="summary__insight">
+                    <h2 class="">Great</h2>
+                    <p class="analysis__insight">You scored higher than 65% of the perople who have taken these tests.</p>
+                </div>
+    
+            </section>
+    
+            <section class="results__scores">
+                <h3 class="scores__heading">Summary</h3>
+                <ul class="scores__list">
+                    
+                </ul>
+                <button class="results__button">Continue</button>
+            </section>
+        </main>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </div>
+
+    <script>
+        const list = document.querySelector(".scores__list");
+        fetch("./data.json")
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(item => {
+                    let category = item.category;
+                    let score = item.score;
+                    let icon = item.icon;
+                    html = `
+                    <li class="list__item ${category}">
+                        <object data=${icon}></object>
+                        <h6>${category}</h6>
+                        <p>${score} <span>/ 100</span></p>
+                    </li>
+                    `
+                    list.insertAdjacentHTML("beforeend", html);
+                });
+            })
+    </script>
+</body>
+</html>
