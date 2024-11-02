@@ -10,5 +10,6 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 | [Social-Links-Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Github](https://github.com/cohoc/frontendmentor/tree/main/social-links-profile-main) | [Live](https://cohoc.github.io/frontendmentor/social-links-profile-main/) | 
 | [Recipe-Page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) | [Github](https://github.com/cohoc/frontendmentor/tree/main/recipe-page-main) | [Live](https://cohoc.github.io/frontendmentor/recipe-page-main/) |
 | [FAQ-Accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) | [Github](https://github.com/cohoc/frontendmentor/tree/main/faq-accordion-main) | [Live](https://cohoc.github.io/frontendmentor/faq-accordion-main/) |
+| [Results-Summary-Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | [Github](https://github.com/cohoc/frontendmentor/tree/main/results-summary-component-main) | [Live](https://cohoc.github.io/frontendmentor/results-summary-component-main/) |
 
 
