@@ -38,5 +38,13 @@ export const data = [
         skills: "HTML, CSS, JS, JSON",
         level: "1 - NEWBIE",
         link: "results-summary"
+    },
+    {
+        name: "product-review-card-component-main",
+        title: "Product Review Card",
+        description: "An e-commerce product card for purfume",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "product-review-card"
     }
 ]
