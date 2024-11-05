@@ -46,5 +46,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "product-review-card"
+    },
+    {
+        name: "interactive-rating-component-main",
+        title: "Interactive Rating Component",
+        description: "Component with different interactive ratings and states",
+        skills: "HTML, CSS, JS",
+        level: "1 - NEWBIE",
+        link: "interactive-rating"
     }
 ]
