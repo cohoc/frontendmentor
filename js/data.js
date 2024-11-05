@@ -40,7 +40,7 @@ export const data = [
         link: "results-summary"
     },
     {
-        name: "product-review-card-component-main",
+        name: "product-preview-card-component-main",
         title: "Product Review Card",
         description: "An e-commerce product card for purfume",
         skills: "HTML, CSS",
