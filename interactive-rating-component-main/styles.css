@@ -1,0 +1,235 @@
+:root{
+    /* --- COLORS --- */
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --darker-blue: hsl(216, 12%, 8%);
+    --font-overpass: "Overpass", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,h2,p{
+    margin: 0px;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+}
+
+p{
+    font-size: 15px;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bg-gradient{
+    background: radial-gradient(circle at center top, hsl(210, 19%, 15%) 20%, hsl(216, 12%, 11%) 100%);
+}
+
+.white{
+    color: var(--white);
+}
+
+.overpass{
+    font-family: var(--font-overpass);
+}
+
+.attribution{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--darker-blue);
+    overflow-y: hidden;
+}
+
+.content-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.list-item{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hsl(210, 20%, 17%);
+    border-radius: 50%;
+}
+
+.list-item:hover{
+    background: var(--orange);
+    cursor: pointer;
+    color: black;
+}
+
+.rating-card{
+    max-width: 380px;
+    min-height: 380px;
+    padding: 32px;
+    border-radius: 16px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid hsla(213, 19%, 18%, .25);
+}
+
+.rating-card__button{
+    width: 100%;
+    height: 42px;
+    border-radius: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: auto;
+    background: var(--orange);
+    text-transform: uppercase;
+}
+
+.rating-card__button:hover{
+    background: var(--white);
+}
+
+.rating-card__icon{
+    width: 42px;
+    height: 42px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hsl(210, 20%, 17%);
+    border-radius: 50%;
+}
+
+.rating-card__list{
+    width: 100%;
+    min-height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-card__title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.rating-card__text{
+    font-weight: 400;
+    line-height: 1.75;
+    margin-block: 12px;
+    opacity: .7;
+}
+
+.thanks-card{
+    position: absolute;
+    translate: 0vh 10vh;
+    max-width: 380px;
+    min-height: 380px;
+    padding: 32px;
+    border-radius: 16px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 500ms linear, transform 750ms ease;   
+    border: 1px solid hsla(213, 19%, 18%, .25);
+    z-index: -999;
+}
+
+.thanks-card__header{
+    font-size: 1.75rem;
+    margin-block: 8px;
+}
+
+.thanks-card__info{
+    margin-block: 8px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    opacity: .7;
+    text-align: center;
+}
+
+.thanks-card__rating{
+    width: fit-content;
+    height: 32px;
+    margin-block: 24px 16px;
+    border-radius: 16px;
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hsl(210, 20%, 17%);
+    color: var(--orange);
+}
+
+.active{
+    color: black;
+    background: var(--white);
+}
+
+.visible{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(-10vh);
+    transition: opacity 1s ease, transform 750ms ease;
+}
+
+.hidden{
+    opacity: 0;
+    display: none;
+}
+
+.ease{
+    transition: background 150ms ease;
+}
+
+/*
+.hidden{
+    display: none;
+}

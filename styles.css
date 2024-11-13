@@ -146,11 +146,13 @@ main{
 }
 
 .card__description{
-    min-height: 32px;
-    line-height: 32px;
+    min-height: fit-content;
+    margin-block: 6px;
+    display: flex;
+    align-items: center;
     text-align: start;
     vertical-align: middle;
-    color: rgb(72,72,72);
+    color: rgba(72,72,72,.75);
 }
 
 .card__link{
