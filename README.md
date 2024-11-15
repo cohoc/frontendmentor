@@ -12,5 +12,6 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 | [FAQ-Accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) | [Github](https://github.com/cohoc/frontendmentor/tree/main/faq-accordion-main) | [Live](https://cohoc.github.io/frontendmentor/faq-accordion-main/) |
 | [Results-Summary-Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | [Github](https://github.com/cohoc/frontendmentor/tree/main/results-summary-component-main) | [Live](https://cohoc.github.io/frontendmentor/results-summary-component-main/) |
 | [Product-Review-Card](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | [Github](https://github.com/cohoc/frontendmentor/tree/main/product-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/product-preview-card-component-main/) |
+| [Interactive-Rating-Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) | [Github](https://github.com/cohoc/frontendmentor/tree/main/interactive-rating-component-main) | [Live](https://cohoc.github.io/frontendmentor/interactive-rating-component-main/) |
 
 

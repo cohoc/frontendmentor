@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-w-fade-in-animation-using-html-css-js-ED-XUoXplH)
+- [Live Site](https://cohoc.github.io/frontendmentor/interactive-rating-component-main/)
 
 ## My process
 
