@@ -50,9 +50,17 @@ export const data = [
     {
         name: "interactive-rating-component-main",
         title: "Interactive Rating Component",
-        description: "Component with different interactive ratings and states",
+        description: "Component with different interactive ratings",
         skills: "HTML, CSS, JS",
         level: "1 - NEWBIE",
         link: "interactive-rating"
+    }, 
+    {
+        name: "nft-preview-card-component-main",
+        title: "NFT Card Preview",
+        description: "An nft card with different active states",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "nft-preview-card"
     }
 ]

@@ -17,7 +17,7 @@ function loadData(){
         <li class="card">
             <img class="card__preview" src=${image}></img>
             <article class="card__info">
-                <h2 class="card__title">${title}</h2>
+                <h2 class="card__title heading-resize">${title}</h2>
                 <div class="card__description">
                     <p>${desc}</p>
                 </div>
