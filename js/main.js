@@ -19,7 +19,7 @@ function loadData(){
             <article class="card__info">
                 <h2 class="card__title heading-resize">${title}</h2>
                 <div class="card__description">
-                    <p>${desc}</p>
+                    <p class="text-resize">${desc}</p>
                 </div>
                 <div class="card__link">
                     <a href="./${name}">Live Demo</a>

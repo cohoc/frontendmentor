@@ -114,7 +114,7 @@ main{
 .cards__list{
     display: grid;
     grid-template-columns: 
-        repeat(auto-fill, minmax(250px, 1fr));
+        repeat(auto-fill, minmax(240px, 1fr));
     column-gap: 2rem;
     row-gap: 2rem;
 }
@@ -156,17 +156,15 @@ main{
 
 .card__link{
     width: 100%;
-    height: 32px;
-    margin-top: auto;
 }
 
 .text-resize{
-    font-size: clamp(.65rem, 1.55vw, 1.5rem);
-    font-weight: 300;
+    font-size: clamp(.85rem, 1.5vw, 1rem);
+    font-weight: 500;
 }
 
 .heading-resize{
-    font-size: clamp(1.25rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.35rem);
 }
 
 /*
