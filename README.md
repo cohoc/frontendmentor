@@ -13,5 +13,7 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 | [Results-Summary-Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | [Github](https://github.com/cohoc/frontendmentor/tree/main/results-summary-component-main) | [Live](https://cohoc.github.io/frontendmentor/results-summary-component-main/) |
 | [Product-Review-Card](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | [Github](https://github.com/cohoc/frontendmentor/tree/main/product-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/product-preview-card-component-main/) |
 | [Interactive-Rating-Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) | [Github](https://github.com/cohoc/frontendmentor/tree/main/interactive-rating-component-main) | [Live](https://cohoc.github.io/frontendmentor/interactive-rating-component-main/) |
+| [NFT-Preview-Card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) | [Github](https://github.com/cohoc/frontendmentor/tree/main/nft-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/nft-preview-card-component-main/) | 
+| [Stats-Preview-Card](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) | [Github](https://github.com/cohoc/frontendmentor/tree/main/stats-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/stats-preview-card-component-main/) |
 
 
