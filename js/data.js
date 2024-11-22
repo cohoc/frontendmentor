@@ -62,5 +62,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "nft-preview-card"
+    },
+    {
+        name: "stats-preview-card-component-main",
+        title: "Stats Card",
+        description: "Component that displays different stats as a card",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "stats-card"
     }
 ]
