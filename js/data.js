@@ -74,9 +74,17 @@ export const data = [
     {
         name: "3-column-preview-card-component-main",
         title: "3 Column Card",
-        description: "Card that displays 3 columns with different active states and mobile responsiveness",
+        description: "Card that displays 3 columns with different active states",
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "3-column"
+    },
+    {
+        name: "profile-card-component-main",
+        title: "Profile Card",
+        description: "Profile card that displays various user info",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "profile-card"
     }
 ]
