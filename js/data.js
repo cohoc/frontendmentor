@@ -86,5 +86,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "profile-card"
+    },
+    {
+        name: "four-card-feature-section-master",
+        title: "Four Card Feature",
+        description: "Multi-column cards with responsiveness",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "four-card"
     }
 ]
