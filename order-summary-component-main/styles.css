@@ -1,0 +1,192 @@
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desat-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --font-red-hat: "Red Hat Display", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+p{
+    color: var(--desat-blue);
+    font-weight: 500;
+    font-size: 1rem;
+    opacity: .75;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+body{
+    min-height: 100vh;
+    padding-inline: 1.5rem;
+    padding-block: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-red-hat);
+    background: var(--pale-blue);
+}
+
+.attribution{
+    display: block;
+    align-content: center;
+    margin-top: .5rem;
+    height: 3rem;
+    font-size: .75rem;
+    letter-spacing: .5px;
+    font-family: var(--font-red-hat);
+}
+
+.card-order{
+    max-width: 380px;
+    border-radius: 16px;
+    box-shadow: 0px 12px 32px -6px hsla(224, 23%, 55%, .25);
+    background: white;
+    text-align: center;
+}
+
+.card-order__wrapper{
+    padding-inline: 1.6rem;
+    padding-bottom: 1.25rem;
+}
+
+.card-order__hero{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: contain;
+}
+
+.card-order__title{
+    font-size: 1.4rem;
+    letter-spacing: .5px;
+    margin-block: 1.2rem;
+}
+
+.card-order__text{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-order__plan{
+    width: 100%;
+    min-height: 4rem;
+    margin-block: 2rem;
+    border-radius: 16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--very-pale-blue);
+}
+
+.card-order__plan p{
+    font-size: .9rem;
+}
+
+.card-order__plan a{
+    font-size: .9rem;
+}
+
+
+.plan__title{
+    font-weight: 900;
+    color: black;
+}
+
+.plan__wrapper{
+    margin-left: 1rem;
+}
+
+.plan__link{
+    text-decoration: underline;
+    margin-left: auto;
+    transition: color 100ms linear, text-decoration 150ms linear;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--bright-blue);
+}
+
+.plan__link:hover{
+    color: #8565e2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-order__wrapper button{
+    width: 100%;
+    min-height: 3rem;
+    font-weight: 900;
+    font-family: var(--font-red-hat);
+}
+
+.card-order__confirm{
+    box-shadow: 0px 12px 32px -6px hsla(224, 23%, 55%, .85);
+    border-radius: 10px;
+    color: white;
+    background: var(--bright-blue);
+    transition: background 150ms linear;
+}
+
+.card-order__confirm:hover{
+    background: #8565e2;
+}
+
+.card-order__cancel{
+    margin-top: .5rem;
+    color: var(--desat-blue);
+    transition: color 150ms linear;
+}
+
+.card-order__cancel:hover{
+    color: black;
+}
+
+@media screen and (min-width: 600px){
+    .attribution{
+        margin-top: 2rem;
+    }
+    
+    .card-order{
+        max-width: 440px;
+    }
+
+    .card-order__wrapper{
+        padding-inline: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    body{
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

@@ -94,5 +94,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "four-card"
+    },
+    {
+        name: "order-summary-component-main",
+        title: "Order Summary Component",
+        description: "A simple order summary card layout",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "order-summary" 
     }
 ]
