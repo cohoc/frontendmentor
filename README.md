@@ -17,6 +17,6 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 | [Stats-Preview-Card](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) | [Github](https://github.com/cohoc/frontendmentor/tree/main/stats-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/stats-preview-card-component-main/) |
 | [3-Column-Card](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub) | [Github](https://github.com/cohoc/frontendmentor/tree/main/3-column-preview-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/3-column-preview-card-component-main/) | 
 | [Profile-Card](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [Github](https://github.com/cohoc/frontendmentor/tree/main/profile-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/profile-card-component-main/) |
-| [Four-Card-Feature](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [Github](https://github.com/cohoc/frontendmentor/tree/main/four-card-feature-section-master) | [Live](https://cohoc.github.io/frontendmentor/four-card-feature-section-master/) |
-
+| [Four-Card-Feature](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [Github](https://github.com/cohoc/frontendmentor/tree/main/four-card-feature-section-master) | [Live](https://cohoc.github.io/frontendmentor/four-card-feature-section-master/) | 
+| [Order-Summary-Component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [Github](https://github.com/cohoc/frontendmentor/tree/main/order-summary-component-main) | [Live](https://cohoc.github.io/frontendmentor/order-summary-component-main/) |
 
