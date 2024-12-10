@@ -1,0 +1,266 @@
+:root{
+    --dark-magenta: hsl(300, 43%, 22%);
+    --dark-gray-magenta: hsl(303, 10%, 53%);
+    --soft-gray-magenta: hsl(300, 24%, 96%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --font-spartan: "League Spartan", sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html{
+    font-size: 15px;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+h1{
+    color: var(--dark-magenta);
+}
+
+p{
+    color: var(--dark-gray-magenta);
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-inline: 1.5rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-spartan);
+    text-align: center;
+    background: url("./images/bg-pattern-top-mobile.svg") top left, url("./images/bg-pattern-bottom-mobile.svg") bottom right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.attribution{
+    display: block;
+    align-content: center;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.socials-page{
+    max-width: 25rem;
+}
+
+.socials-page__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.socials-page__text{
+    text-align: center;
+}
+
+.socials-page__heading{
+    font-size: 2.5rem;
+}
+
+.socials-page__description{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 2rem;
+}
+
+.socials-page__ratings{
+    display: flex;
+    flex-direction: column;
+    margin-block: 3rem;
+    row-gap: 1rem;
+}
+
+.ratings__list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1rem;
+    border-radius: .5rem;
+    background: var(--soft-gray-magenta);
+}
+
+.ratings__company{
+    margin-top: .75rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--dark-magenta);
+}
+
+.ratings__stars{
+    display: flex;
+    gap: .5rem;
+}
+
+.figures__list-item{
+    padding: 2rem;
+    border-radius: .5rem;
+    color: white;
+    background: var(--dark-magenta);
+}
+
+.figures__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.figures__picture{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.figures__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: .25rem;
+    margin-left: 1.5rem;
+}
+
+.figures__info h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.figures__info p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--soft-pink);
+}
+
+.figures__comment{
+    margin-top: 1.5rem;
+    letter-spacing: .25px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.page-figures__list{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    row-gap: 1rem;
+}
+
+@media screen and (min-width: 25rem){
+    body{
+        background: url("./images/bg-pattern-top-mobile.svg") left top, url("./images/bg-pattern-bottom-desktop.svg") bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 75rem){
+
+    body{
+        background: url("./images/bg-pattern-top-desktop.svg") left top, url("./images/bg-pattern-bottom-desktop.svg") bottom right;
+        background-repeat: no-repeat;
+    }
+
+    .socials-page{
+        max-width: 74rem;
+    }
+
+    .socials-page__section{
+        flex-direction: row;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    .socials-page__text{
+        flex: 1;
+    }
+
+    .socials-page__heading{
+        font-size: 4rem;
+    }
+
+    .socials-page__description{
+        font-size: 1.2rem;
+    }
+
+    .socials-page__ratings{
+        justify-content: center;
+        margin-block: 0;
+        align-items: flex-start;
+    }
+
+    .ratings__company{
+        margin-top: 0;
+        margin-left: 1.65rem;
+    }
+
+    .ratings__list-item{
+        flex-direction: row;
+        align-items: center;
+        padding-block: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 4rem;
+    }
+
+    .ratings__list-item:nth-child(1){
+        padding-right: 5rem;
+    }
+
+    .ratings__list-item:nth-child(2){
+        margin-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .ratings__list-item:nth-child(3){
+        margin-left: 6rem;
+        padding-right: 5rem;
+    }
+
+    .page-figures__list{
+        margin-top: 3rem;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .figures__list-item{
+        padding-block: 3rem;
+    }
+
+    .figures__list-item:nth-child(2){
+        margin-top: 1rem;
+    }
+
+    .figures__list-item:nth-child(3){
+        margin-top: 2rem;
+    }
+
+    .socials-page__text{
+        text-align: left;
+    }
+}
+
+

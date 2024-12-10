@@ -102,5 +102,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "order-summary" 
+    },
+    {
+        name: "social-proof-section-master",
+        title: "Social Proof Page",
+        description: "Customer review service page with unique layouts and responsiveness",
+        skills: "HTML, CSS",
+        level: "1 - NEWBIE",
+        link: "social-proof" 
     }
 ]
