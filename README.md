@@ -19,4 +19,5 @@ This repository contains my solutions for coding challenges at [Frontendmentor](
 | [Profile-Card](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [Github](https://github.com/cohoc/frontendmentor/tree/main/profile-card-component-main) | [Live](https://cohoc.github.io/frontendmentor/profile-card-component-main/) |
 | [Four-Card-Feature](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [Github](https://github.com/cohoc/frontendmentor/tree/main/four-card-feature-section-master) | [Live](https://cohoc.github.io/frontendmentor/four-card-feature-section-master/) | 
 | [Order-Summary-Component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [Github](https://github.com/cohoc/frontendmentor/tree/main/order-summary-component-main) | [Live](https://cohoc.github.io/frontendmentor/order-summary-component-main/) |
+| [Social-Proof-Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) | [Github](https://github.com/cohoc/frontendmentor/tree/main/social-proof-section-master) | [Live](https://cohoc.github.io/frontendmentor/social-proof-section-master/) |
 
