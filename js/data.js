@@ -110,5 +110,13 @@ export const data = [
         skills: "HTML, CSS",
         level: "1 - NEWBIE",
         link: "social-proof" 
+    },
+    {
+        name: "article-preview-component-master",
+        title: "Article Preview",
+        description: "Simple article component with animations",
+        skills: "HTML, CSS, JS",
+        level: "1 - NEWBIE",
+        link: "article-preview"
     }
 ]
